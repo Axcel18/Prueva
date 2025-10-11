@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center{
+            background-color: indigo;
+            color: #ebebeb;
+            font-size: 2rem;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .menu{
+            background-color: #3f51b5;
+            font-size: 1.15rem;
+            display: flex;
+            align-items: center;
+            padding: 1rem 1rem;
+        }
+
+        .menu-item, 
+        .final-item{
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s, background 0.2s;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 20px;
+        }
+
+        .menu-item{
+            margin-right: 1rem;
+        }
+
+        .final-item{
+            margin-left: auto;
+            background-color: #283593;
+        }
+
+        .menu-item:hover,
+        .final-item:hover{
+            background-color: #5c6bc0;
+            color: #e3e3fa;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <a href="#" class="menu-item">Inicio</a>
+        <a href="#" class="menu-item">Teoria de Conduccion</a>
+        <a href="#" class="menu-item">Practica</a>
+        <a href="#" class="menu-item">Tipo de Vehiculo</a>
+        <a href="#" class="menu-item">Reglamento</a>
+        <a href="#" class="final-item">Contactanos</a>
+    </nav>
+
+    <div class="center">
+        <p>Lo importante es quien esta detras del volante</p>
+        <img src="descarga.jpeg" alt="500px">
+    </div>
+</body>
+</html>

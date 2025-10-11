@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: #fafbfc;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor-capitulos{
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #fff;
+            border: 2px  solid #222;
+            border-radius: 4px;
+            padding: 24px 28px;
+            box-sizing: border-box;
+        }
+
+        .titulo-capitulos{
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 18px;
+        }
+
+        .lista-capitulos{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px 28px;
+        }
+
+        .capitulo{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 14px;
+            flex: 1 1 220px;
+            min-width: 300px;
+            max-width: 32%;
+            box-sizing: border-box;
+        }
+
+        .numero-capitulo{
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #d32f2f;
+            min-width: 36px;
+            line-height: 1;
+        }
+
+        .contenido-capitulo{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .titulo-capitulo{
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 4px;
+        }
+
+        .descripcion-capitulo{
+            font-size: 0.97rem;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        @media(max-width: 900px){
+            .lista-capitulos{
+                gap: 18px 0;
+            }
+            .capitulo{
+                max-width: 48%;
+                min-width: 240px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor-capitulos">
+        <div class="titulo-capitulos">LISTA DE CAPITULOS - VIDEOJUEGOS</div>
+        <div class="lista-capitulos">
+            <div class="capitulo">
+                <div class="numero-capitulo">1</div>
+                <div class="contenido-capitulo">
+                    <div class="titulo-capitulo">El mensaje</div>
+                    <div class="descripcion-capitulo">
+                        Alex, un gamer apasionado pero solitario, recibe un misterioso correo:
+                        “Has sido seleccionado para probar Reality Code, el videojuego más real jamás creado. Solo un jugador lo logrará.”
+                        Sin pensarlo dos veces, acepta. Al iniciar el juego, su habitación se distorsiona y su cuerpo desaparece del mundo real.
+                    </div>
+                </div>
+            </div>
+            <div class="capitulo">
+                <div class="numero-capitulo">2</div>
+                <div class="contenido-capitulo">
+                    <div class="titulo-capitulo">Nuevo mundo</div>
+                    <div class="descripcion-capitulo">
+                        Alex despierta en una ciudad digital llamada NeoCore. Su brazo tiene un contador luminoso: “3 vidas restantes”.
+                        Un androide llamado LUX le explica que está dentro del juego y que debe superar seis niveles para salir.
+                        Pero si muere tres veces... su conciencia quedará atrapada para siempre.                    </div>
+                </div>
+            </div>
+            <div class="capitulo">
+                <div class="numero-capitulo">3</div>
+                <div class="contenido-capitulo">
+                    <div class="titulo-capitulo">El primer nivel</div>
+                    <div class="descripcion-capitulo">
+                        El entorno cambia a una jungla pixelada. Alex debe esquivar trampas y criaturas glitch.
+                        Con reflejos y astucia, logra alcanzar el final.
+                        “Nivel 1 completado”, anuncia una voz metálica.
+                        Pero ve a otro jugador derrotado: su cuerpo se disuelve en datos. No es el único en este juego.
+                    </div>
+                </div>
+            </div>
+            <div class="capitulo">
+                <div class="numero-capitulo">4</div>
+                <div class="contenido-capitulo">
+                    <div class="titulo-capitulo">Los enemigos</div>
+                    <div class="descripcion-capitulo">
+                        En el segundo y tercer nivel, Alex se enfrenta a jugadores que prefieren eliminar a los demás para asegurar su salida.
+                        Descubre que el sistema premia la violencia.
+                        LUX intenta convencerlo de mantenerse “humano”, pero el juego empieza a reprogramar sus emociones.
+                    </div>
+                </div>
+            </div>
+            <div class="capitulo">
+                <div class="numero-capitulo">5</div>
+                <div class="contenido-capitulo">
+                    <div class="titulo-capitulo">La traición del código</div>
+                    <div class="descripcion-capitulo">
+                        Al llegar al penúltimo nivel, Alex descubre que LUX no es un aliado, sino un fragmento del sistema que busca retenerlo.
+                        “El mundo real te olvidó. Aquí eres parte del código ahora.”
+                        Con esfuerzo, Alex hackea su propio avatar y corrompe el sistema para abrir la puerta final.
+                    </div>
+                </div>
+            </div>
+            <div class="capitulo">
+                <div class="numero-capitulo">6</div>
+                <div class="contenido-capitulo">
+                    <div class="titulo-capitulo">Reinicio</div>
+                    <div class="descripcion-capitulo">
+                        Frente al núcleo del juego, Alex ve un botón: “Salir del sistema”.
+                        Pero al presionarlo, aparece su reflejo digital.
+                        “Si tú sales, yo muero.”
+                        Sin dudar, Alex destruye el núcleo.
+                        La pantalla se apaga… y en el mundo real, su computadora se enciende sola.
+                        Un nuevo mensaje aparece:
+                        “Jugador 2 conectado.”
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
